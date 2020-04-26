@@ -104,8 +104,8 @@ h2::after {
   display: block;
   margin: 0 auto;
   padding-top: 22px;
-  width: 164px;
-  border-bottom: 7px solid #1abc9c;
+  width: 165px;
+  border-bottom: 8px solid #1abc9c;
 }
 
 .product-list {
@@ -131,6 +131,7 @@ h2::after {
 .pic-product {
   display: block;
   background-color: #e9f0fd;
+  overflow: hidden;
 }
 
 .product-box {
@@ -182,73 +183,4 @@ h2::after {
 
 .product-list li :hover {
   background-color: #1abc9c;
-}
-
-/* SECTION - ARTICLE */
-
-.list-article {
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-}
-
-.article {
-  float: left;
-  display: block;
-  width: 350px;
-}
-
-.article:not(:last-child) {
-  margin-right: 30px;
-}
-
-h4 {
-  margin: 0;
-  margin-top: 14px;
-  color: #555252;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 26px;
-  letter-spacing: -0.36px;
-}
-
-h4::after {
-  content: "";
-  display: block;
-  margin: 0;
-  margin-top: 10px;
-  width: 136px;
-  border-bottom: 3px solid #4ec6ab;
-}
-
-.article p {
-  margin: 0;
-  margin-top: 22px;
-  color: #555252;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: -0.28px;
-}
-
-.go-to-article {
-  display: block;
-  margin: 0;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-left: 40px;
-  width: 160px;
-  height: 50px;
-  background-color: #4ec6ab;
-  border: 1px solid #4ec6ab;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 26px;
-  letter-spacing: -0.32px;
 }
