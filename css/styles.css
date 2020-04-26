@@ -1,0 +1,254 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.conteiner {
+  margin: 0 auto;
+  padding: 0;
+  width: 1110px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* HEADER */
+
+.nav-blok {
+  padding-top: 32px;
+  padding-bottom: 104px;
+}
+
+.logo {
+  float: left;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.list {
+  margin: 0;
+  margin-top: 6px;
+  padding: 0;
+  width: 468px;
+  float: right;
+  list-style: none;
+}
+
+.list li {
+  float: left;
+  margin-right: 30px;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+
+.list a:hover,
+.list a:focus {
+  color: #1abc9c;
+  cursor: pointer;
+}
+
+.list a {
+  font-family: "Open Sans", sans-serif;
+  color: #0f0101;
+  line-height: 11px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* SECTION - PRODUCT-CARD */
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #515151;
+  letter-spacing: -0.96px;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  padding-top: 22px;
+  width: 164px;
+  border-bottom: 7px solid #1abc9c;
+}
+
+.product-list {
+  margin: 0;
+  padding: 92px 0 104px 0;
+  list-style: none;
+}
+
+.product-list li {
+  float: left;
+  width: 255px;
+  margin-bottom: 30px;
+}
+
+.product-list li:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.product-list li:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.pic-product {
+  display: block;
+  background-color: #e9f0fd;
+}
+
+.product-box {
+  background-color: #323232;
+}
+
+.product-name {
+  margin: 0;
+
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.product-name a {
+  display: block;
+  padding-left: 10px;
+  width: 200px;
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.price {
+  float: right;
+  margin: 0;
+  width: 55px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 44%);
+}
+
+.price::before {
+  content: "$";
+}
+
+.product-list li :hover {
+  background-color: #1abc9c;
+}
+
+/* SECTION - ARTICLE */
+
+.list-article {
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+}
+
+.article {
+  float: left;
+  display: block;
+  width: 350px;
+}
+
+.article:not(:last-child) {
+  margin-right: 30px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 14px;
+  color: #555252;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.36px;
+}
+
+h4::after {
+  content: "";
+  display: block;
+  margin: 0;
+  margin-top: 10px;
+  width: 136px;
+  border-bottom: 3px solid #4ec6ab;
+}
+
+.article p {
+  margin: 0;
+  margin-top: 22px;
+  color: #555252;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.28px;
+}
+
+.go-to-article {
+  display: block;
+  margin: 0;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
+  border: 1px solid #4ec6ab;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+}
