@@ -23,15 +23,15 @@ html {
 img {
   display: block;
   margin: auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 /* HEADER */
 
 .nav-blok {
-  padding-top: 32px;
-  padding-bottom: 104px;
+  padding-top: 42px;
+  padding-bottom: 38px;
 }
 
 .logo {
@@ -86,7 +86,94 @@ img {
   text-decoration: none;
 }
 
+/* Background Slaider Zone */
+
+.box {
+  margin: 0 auto;
+  padding: 0;
+  width: 1600px;
+}
+.background-slider {
+  min-height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 2, 0.52), rgba(0, 0, 2, 0.52)),
+    url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heading-box {
+  position: absolute;
+  top: 270px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 2;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 82px;
+  text-transform: uppercase;
+  letter-spacing: -1.2px;
+}
+
+.title-hover:hover {
+  color: #ff7200;
+  cursor: pointer;
+}
+
+.heading-box p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: -0.48x;
+}
+
+/* BATTON SCROLL */
+
+.batton-scroll {
+  position: absolute;
+  top: 278px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.batton {
+  font-size: 100px;
+  line-height: 1.1;
+  color: #ffffff;
+  text-align: center;
+  width: 105px;
+  height: 105px;
+  border: none;
+  background-color: rgba(26, 188, 156, 0.65);
+}
+
+.batton:hover {
+  background-color: rgb(26, 188, 156);
+  cursor: pointer;
+}
+
+.left-clik {
+  float: left;
+}
+
+.right-clik {
+  float: right;
+}
+
 /* SECTION - PRODUCT-CARD */
+
+.background-card {
+  background-color: #e9f0fd;
+}
 
 h2 {
   margin: 0;
