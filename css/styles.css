@@ -162,13 +162,13 @@ h1 {
 
 .left-clik {
   float: left;
-  background-image: url(/img/icon/angleleft.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/angleleft.svg);
   background-size: 100%;
 }
 
 .right-clik {
   float: right;
-  background-image: url(/img/icon/angleright.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/angleright.svg);
   background-size: 100%;
 }
 
@@ -332,19 +332,19 @@ h2::after {
 }
 
 .like {
-  background-image: url(/img/icon/like.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/like.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .shuffle {
-  background-image: url(/img/icon/shuffle.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/shuffle.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .clock {
-  background-image: url(/img/icon/clock.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -361,7 +361,7 @@ h2::after {
   color: #ffffff;
   padding-top: 16px;
   padding-right: 18px;
-  background-image: url(/img/icon/cart.svg);
+  background-image: url(https://raw.githubusercontent.com/VadimBerezenskiy/module-05/master/img/icon/cart.svg);
   background-repeat: no-repeat;
   background-color: #323232;
   background-position-y: center;
