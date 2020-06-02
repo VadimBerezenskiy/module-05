@@ -96,12 +96,11 @@ button {
 /* Background Slaider Zone */
 
 .background-slider {
-  margin: 0 auto;
   min-height: 600px;
   background-image: linear-gradient(rgba(0, 0, 2, 0.52), rgba(0, 0, 2, 0.52)),
     url(../img/background.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-position: center;
   position: relative;
 }
@@ -141,12 +140,6 @@ h1 {
 }
 
 /* BATTON SCROLL */
-
-.box {
-  margin: 0 auto;
-  padding: 0;
-  max-width: 1648px;
-}
 
 .button-scroll {
   position: absolute;
